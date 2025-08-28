@@ -1,0 +1,88 @@
+# -------- Python basics --------
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+.conda/
+*.swp
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------- Environment & secrets --------
+.env
+.env.*
+!.env.example
+.envrc
+
+# -------- Notebooks --------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------- Caches / tests --------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+
+# -------- Editors / OS --------
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# -------- Data folders (keep structure via .gitkeep) --------
+data/*
+!data/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+!data/samples/**
+!data/README.md
+
+# Common large files
+*.parquet
+*.feather
+*.orc
+*.csv.gz
+*.tsv.gz
+
+# -------- DB / dumps --------
+*.sqlite
+*.db
+*.db-journal
+*.dump
+*.backup
+dump.sql
+pg_dump.sql
+/backups/
+
+# -------- Docker --------
+docker-compose.override.yml
+*.env.docker
+# named volumes / local mounts
+pgdata/
+**/pgdata/
+**/postgres-data/
+
+# -------- Integrations (optional secrets) --------
+configs/metabase/*secrets*.json
+configs/datahub/*secrets*.yml
+configs/*local*.yml
+
+# -------- Alembic --------
+# (keep migration scripts, ignore bytecode)
+alembic/__pycache__/
+alembic/versions/__pycache__/

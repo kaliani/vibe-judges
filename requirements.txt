@@ -1,0 +1,4 @@
+pandas
+numpy
+sqlalchemy>=2.0
+psycopg[binary] 
