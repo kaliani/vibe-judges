@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibe-judges"
+version = "0.1.0"
+description = "Preprocessing and analytics for judges, courts and documents"
+authors = [
+  { name = "Ivan", email = "your@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "sqlalchemy",
+  "psycopg[binary]",
+  "pydantic-settings",
+  "python-dotenv",
+  "typer",
+  "requests",
+  "beautifulsoup4",
+  "lxml",
+  "tqdm",
+  "regex",
+  "pyyaml",
+  "alembic",
+  "rapidfuzz"
+]
+
+[tool.setuptools]
+# каже setuptools шукати пакети у цих директоріях
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
