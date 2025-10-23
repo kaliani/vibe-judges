@@ -4,6 +4,9 @@ __pycache__/
 *.so
 
 # Virtual envs
+*env/
+myenv/
+.myenv/
 .venv/
 venv/
 env/
