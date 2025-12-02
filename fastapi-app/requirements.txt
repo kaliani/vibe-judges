@@ -3,6 +3,7 @@ langgraph-prebuilt
 langchain-core
 langchain-community
 langchain-openai
+langchain-mcp-adapters
 fastapi
 uvicorn
 streamlit
