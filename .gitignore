@@ -37,6 +37,7 @@ dist/
 coverage.xml
 htmlcov/
 .cache/
+.pckl
 
 # -------- Editors / OS --------
 .vscode/

@@ -3,7 +3,8 @@
   "graphs": {
     "simple_graph": "./simple_agent.py:graph",
     "router": "./router.py:graph",
-    "agent": "./agent.py:graph"
+    "agent": "./agent.py:graph",
+    "judge_agent": "./judge.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",

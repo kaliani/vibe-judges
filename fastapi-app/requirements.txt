@@ -3,3 +3,7 @@ langgraph-prebuilt
 langchain-core
 langchain-community
 langchain-openai
+fastapi
+uvicorn
+streamlit
+striprtf

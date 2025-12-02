@@ -3,3 +3,10 @@ python-dotenv
 numpy
 sqlalchemy>=2.0
 psycopg2
+striprtf
+langgraph
+langchain
+langgraph-prebuilt
+langchain-core
+langchain-community
+langchain-openai
