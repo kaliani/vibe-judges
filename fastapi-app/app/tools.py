@@ -5,7 +5,6 @@ from langchain_core.tools import tool
 
 from striprtf.striprtf import rtf_to_text
 
-from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 
 from langchain_mcp_adapters.client import MultiServerMCPClient
